@@ -7,6 +7,9 @@ class NeuralNet:
 		self.w = np.array([0, 0])
 		self.b = 0
 
+	def _hinge_loss(x, y):
+		return max(0, 1 - y*(np.matmul(self.w, x) + b))
+
 	def fit(self, data, epochs):
 		""" Receive a (x, y) data array and the number of
 		epochs, trains until convergencd or until number of

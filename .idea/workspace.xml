@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="016db845-02df-4e69-9a6c-c67a4818b3e0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Statistics/BinomialDistributionI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Statistics/BinomialDistributionII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Statistics/GeometricDistributionI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Statistics/GeometricDistributionII.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brilliant/gradient_descent.py" beforeDir="false" afterPath="$PROJECT_DIR$/Brilliant/gradient_descent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brilliant/neural_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/Brilliant/neural_net.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brilliant/toy_lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Brilliant/toy_lstm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brilliant/toy_rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Brilliant/toy_rnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Statistics/InterquartileRange.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Statistics/InterquartileRange.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Statistics/Quartiles.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Statistics/Quartiles.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Statistics/READEME.MD" beforeDir="false" afterPath="$PROJECT_DIR$/Statistics/READEME.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Statistics/StandardDeviation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Statistics/StandardDeviation.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Statistics/WeightedMean.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Statistics/WeightedMean.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Statistics/mean_median_mode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Statistics/mean_median_mode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Statistics/NormalDistributionI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Statistics/NormalDistributionII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Statistics/PoissonDistributionI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Statistics/PoissonDistributionII.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,29 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GeometricDistributionII.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Statistics/GeometricDistributionII.py">
+      <file leaf-file-name="NormalDistributionII.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Statistics/NormalDistributionII.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-end-line="13" />
+            <state relative-caret-position="228">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinomialDistributionI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Statistics/BinomialDistributionI.py">
+      <file leaf-file-name="NormalDistributionI.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Statistics/NormalDistributionI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="in.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Statistics/in.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="405">
+              <caret line="27" lean-forward="true" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -78,6 +55,10 @@
         <option value="$PROJECT_DIR$/Statistics/BinomialDistributionII.py" />
         <option value="$PROJECT_DIR$/Statistics/GeometricDistributionI.py" />
         <option value="$PROJECT_DIR$/Statistics/GeometricDistributionII.py" />
+        <option value="$PROJECT_DIR$/Statistics/PoissonDistributionI.py" />
+        <option value="$PROJECT_DIR$/Statistics/PoissonDistributionII.py" />
+        <option value="$PROJECT_DIR$/Statistics/NormalDistributionI.py" />
+        <option value="$PROJECT_DIR$/Statistics/NormalDistributionII.py" />
       </list>
     </option>
   </component>
@@ -130,61 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GeometricDistributionII">
-    <configuration name="BinomialDistributionI" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Artificial-intelligence" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Statistics" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Statistics/BinomialDistributionI.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="BinomialDistributionII" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Artificial-intelligence" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Statistics" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Statistics/BinomialDistributionII.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="GeometricDistributionI" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Artificial-intelligence" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Statistics" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Statistics/GeometricDistributionI.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.NormalDistributionII">
     <configuration name="GeometricDistributionII" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Artificial-intelligence" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,18 +130,92 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="NormalDistributionI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Artificial-intelligence" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Statistics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Statistics/NormalDistributionI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="NormalDistributionII" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Artificial-intelligence" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Statistics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Statistics/NormalDistributionII.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="PoissonDistributionI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Artificial-intelligence" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Statistics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Statistics/PoissonDistributionI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="PoissonDistributionII" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Artificial-intelligence" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Statistics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Statistics/PoissonDistributionII.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.BinomialDistributionI" />
-      <item itemvalue="Python.BinomialDistributionII" />
-      <item itemvalue="Python.GeometricDistributionI" />
       <item itemvalue="Python.GeometricDistributionII" />
+      <item itemvalue="Python.PoissonDistributionI" />
+      <item itemvalue="Python.PoissonDistributionII" />
+      <item itemvalue="Python.NormalDistributionI" />
+      <item itemvalue="Python.NormalDistributionII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.NormalDistributionII" />
+        <item itemvalue="Python.NormalDistributionI" />
+        <item itemvalue="Python.PoissonDistributionII" />
+        <item itemvalue="Python.PoissonDistributionI" />
         <item itemvalue="Python.GeometricDistributionII" />
-        <item itemvalue="Python.GeometricDistributionI" />
-        <item itemvalue="Python.BinomialDistributionII" />
-        <item itemvalue="Python.BinomialDistributionI" />
       </list>
     </recent_temporary>
   </component>
@@ -265,13 +266,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Statistics/in.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Statistics/mean_median_mode.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38" />
@@ -287,7 +281,7 @@
     <entry file="file://$PROJECT_DIR$/Statistics/BinomialDistributionI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -301,7 +295,42 @@
     <entry file="file://$PROJECT_DIR$/Statistics/GeometricDistributionII.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Statistics/PoissonDistributionI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Statistics/PoissonDistributionII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" lean-forward="true" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Statistics/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Statistics/NormalDistributionI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Statistics/NormalDistributionII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
         </state>
       </provider>
     </entry>
